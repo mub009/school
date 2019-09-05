@@ -1,0 +1,11 @@
+1. Replace all files 2.5 version files with new 3.0 version files
+
+2. Replace existing database connection in the new database connection file
+    aplication->config->database.php
+
+3.  Replace existing base url in the new config file
+    aplication->config->config.php
+
+4. Run alter.sql in you existing datbase from 
+    phpmyadmin
+

@@ -1,0 +1,7 @@
+name*,admission_no*,guardian_id*,relation_with_guardian,national_id*,registration_no*,roll_no*,date_of_birth*,gender*,phone*,email,username*,password*,group,blood_group,religion,discount_id,present_address,permanent_address,second_language,health_condition,previous_school,father_name,father_phone,father_education,father_profession,father_designation,mother_name,mother_phone,mother_education,mother_profession,mother_designation,other_info
+Michael Clark,8466987,1,father,589654789,1001,1,2/2/1985,male,13654789,michael1@gsms.com,test1,123456,arts,"a_positive
+",,,,,,,,,,,,,,,,,,
+Michael Hussy,8466987,1,father,589654789,1001,1,2/2/1985,male,13654789,hussy1@gsms.com,test2,123456,arts,"a_positive
+",,,,,,,,,,,,,,,,,,
+Michael Hussy,8466987,1,father,589654789,1001,1,2/2/1985,male,13654789,hussy1@gsms.com,test3,123456,arts,"a_positive
+",,,,,,,,,,,,,,,,,,
