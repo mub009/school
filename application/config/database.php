@@ -100,7 +100,11 @@ $db['default'] = array(
 // Please enter your database connection here
 $db['default']['hostname'] = "localhost";
 $db['default']['username'] = "freelabn_school";
-$db['default']['password'] = "Om$g}}nf(*h=";
+$db['default']['password'] = "mubashir@123";
 $db['default']['database'] = "freelabn_school";
 
+
+//User: freelabn_school
+
+Database: freelabn_school
 
