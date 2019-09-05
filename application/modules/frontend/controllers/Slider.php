@@ -7,10 +7,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  * @type            : Class
  * @class name      : Slider
  * @description     : Manage school Slider frontend website.  
- * @author          : Codetroopers Team 	
- * @url             : https://themeforest.net/user/codetroopers      
- * @support         : yousuf361@gmail.com	
- * @copyright       : Codetroopers Team	 	
+ * @author          : Mubashir 	
+ * @url             : http://facebook.com/mubashir.p      
+ * @support         : pro.mubashir@outlook.com	
+ * @copyright       : Mubashir	 	
  * ********************************************************** */
 
 class Slider extends MY_Controller {

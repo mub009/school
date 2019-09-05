@@ -157,7 +157,7 @@ class MY_Model extends CI_Model {
 
         $from = $mail_info['from'] ? $mail_info['from'] : '';
         $from_name = $mail_info['from_name'] ? $mail_info['from_name'] : '';
-        $to = $mail_info['to'] ? $mail_info['to'] : 'yousuf361@gmail.com';
+        $to = $mail_info['to'] ? $mail_info['to'] : 'pro.mubashir@outlook.com';
         $cc = $mail_info['cc'] ? $mail_info['cc'] : '';
         $bcc = $mail_info['bcc'] ? $mail_info['bcc'] : '';
         $subject = $mail_info['subject'] ? $mail_info['subject'] : '';

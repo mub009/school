@@ -3,14 +3,14 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 /* * *****************Gallery.php**********************************
- * @product name    : Global Multi School Management System Express
+ * @product name    : Multi School Management System 
  * @type            : Class
  * @class name      : Gallery
  * @description     : Manage school Gallery for guardian, student, teacher and employee.  
- * @author          : Codetroopers Team 	
- * @url             : https://themeforest.net/user/codetroopers      
- * @support         : yousuf361@gmail.com	
- * @copyright       : Codetroopers Team	 	
+ * @author          : Mubashir 	
+ * @url             : http://facebook.com/mubashir.p      
+ * @support         : pro.mubashir@outlook.com	
+ * @copyright       : Mubashir	 	
  * ********************************************************** */
 
 class Gallery extends MY_Controller {

@@ -7,10 +7,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  * @type            : Class
  * @class name      : Frontend
  * @description     : Manage school Frontend Pages for guardian, student, teacher and employee.  
- * @author          : Codetroopers Team 	
- * @url             : https://themeforest.net/user/codetroopers      
- * @support         : yousuf361@gmail.com	
- * @copyright       : Codetroopers Team	 	
+ * @author          : Mubashir 	
+ * @url             : http://facebook.com/mubashir.p      
+ * @support         : pro.mubashir@outlook.com	
+ * @copyright       : Mubashir	 	
  * ********************************************************** */
 
 class Frontend extends MY_Controller {

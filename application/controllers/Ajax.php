@@ -3,15 +3,15 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 /* * ***************Ajax.php**********************************
- * @product name    : Global Multi School Management System Express
+ * @product name    : Multi School Management System 
  * @type            : Class
  * @class name      : Ajax
  * @description     : This class used to handle ajax call from view file 
  *                    of whole application.  
- * @author          : Codetroopers Team 	
- * @url             : https://themeforest.net/user/codetroopers      
- * @support         : yousuf361@gmail.com	
- * @copyright       : Codetroopers Team	 	
+ * @author          : Mubashir 	
+ * @url             : http://facebook.com/mubashir.p      
+ * @support         : pro.mubashir@outlook.com	
+ * @copyright       : Mubashir	 	
  * ********************************************************** */
 
 class Ajax extends My_Controller {

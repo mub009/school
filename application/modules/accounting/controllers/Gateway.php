@@ -3,14 +3,14 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 /* * *****************Gateway.php**********************************
- * @product name    : Global Multi School Management System Express
+ * @product name    : Multi School Management System 
  * @type            : Class
  * @class name      : Gateway
  * @description     : Process payment gateway notiication.  
- * @author          : Codetroopers Team 	
- * @url             : https://themeforest.net/user/codetroopers      
- * @support         : yousuf361@gmail.com	
- * @copyright       : Codetroopers Team	 	
+ * @author          : Mubashir 	
+ * @url             : http://facebook.com/mubashir.p      
+ * @support         : pro.mubashir@outlook.com	
+ * @copyright       : Mubashir	 	
  * ********************************************************** */
 class Gateway extends CI_Controller {
 
@@ -38,12 +38,12 @@ class Gateway extends CI_Controller {
     * ********************************************************** */
     public function paypal_notify(){
         
-       //mail('yousuf361@gmail.com', 'Paypal notify out', json_encode($_POST));
+       //mail('pro.mubashir@outlook.com', 'Paypal notify out', json_encode($_POST));
         
         if (isset($_POST['ipn_track_id']) && !empty($_POST['ipn_track_id'])) {
             
             
-            // mail('yousuf361@gmail.com', 'Paypal notify in', json_encode($_POST));
+            // mail('pro.mubashir@outlook.com', 'Paypal notify in', json_encode($_POST));
             /*$ipn_response = '';
             foreach ($_POST as $key => $value) {
                 $value = urlencode(stripslashes($value));

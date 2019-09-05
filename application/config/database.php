@@ -96,10 +96,11 @@ $db['default'] = array(
 	'save_queries' => TRUE
 );
 
+
 // Please enter your database connection here
-$db['default']['hostname'] = "";
-$db['default']['username'] = "";
-$db['default']['password'] = "";
-$db['default']['database'] = "";
+$db['default']['hostname'] = "localhost";
+$db['default']['username'] = "root";
+$db['default']['password'] = "mubashir";
+$db['default']['database'] = "school";
 
 

@@ -583,7 +583,7 @@ CREATE TABLE `global_setting` (
 --
 
 INSERT INTO `global_setting` (`id`, `brand_name`, `language`, `enable_rtl`, `enable_frontend`, `date_format`, `time_zone`, `brand_logo`, `front_logo`, `brand_footer`, `google_analytics`, `status`, `created_by`, `modified_by`, `created_at`, `modified_at`) VALUES
-(1, 'Global - Multi School Management System Express', 'english', 0, 1, 'M j, Y', 'Asia/Dhaka', '1538469805-brand-logo.png', '1538479290-brand-front-logo.png', '© 2018 Codetroopers Team. <a href="https://bit.ly/2QCCRlD">Web Portal</a>', '', 1, 1, 1, '2018-10-02 10:39:15', '2018-11-06 16:43:18');
+(1, 'Global - Multi School Management System Express', 'english', 0, 1, 'M j, Y', 'Asia/Dhaka', '1538469805-brand-logo.png', '1538479290-brand-front-logo.png', '© 2018 Mubashir. <a href="https://bit.ly/2QCCRlD">Web Portal</a>', '', 1, 1, 1, '2018-10-02 10:39:15', '2018-11-06 16:43:18');
 
 -- --------------------------------------------------------
 

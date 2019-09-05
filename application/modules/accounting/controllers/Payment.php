@@ -3,14 +3,14 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 /* * *****************Payment.php**********************************
- * @product name    : Global Multi School Management System Express
+ * @product name    : Multi School Management System 
  * @type            : Class
  * @class name      : Payment
  * @description     : Manage all kind of paymnet transaction by integrated payment gateway.  
- * @author          : Codetroopers Team 	
- * @url             : https://themeforest.net/user/codetroopers      
- * @support         : yousuf361@gmail.com	
- * @copyright       : Codetroopers Team	 	
+ * @author          : Mubashir 	
+ * @url             : http://facebook.com/mubashir.p      
+ * @support         : pro.mubashir@outlook.com	
+ * @copyright       : Mubashir	 	
  * ********************************************************** */
 
 class Payment extends My_Controller {
@@ -428,7 +428,7 @@ class Payment extends My_Controller {
         
         // print_r($_POST); die();
         
-        //mail('yousuf361@gmail.com', 'PayUMoney', json_encode($_POST));
+        //mail('pro.mubashir@outlook.com', 'PayUMoney', json_encode($_POST));
         
         $invoice_id = $this->uri->segment(4);
         $invoice = $this->invoice->get_single_invoice($invoice_id);
@@ -456,7 +456,7 @@ class Payment extends My_Controller {
         $retHashSeq = $key."|".$txnid."|".$amount."|".$productinfo."|".$firstname."|".$email."|||||||||||".$salt;
 
         $hash = strtolower(hash("sha512", $retHashSeq));
-       // mail('yousuf361@gmail.com', 'Hash PayUMoney', $hash);
+       // mail('pro.mubashir@outlook.com', 'Hash PayUMoney', $hash);
                      
         if ($status === "success") {                
                
@@ -504,7 +504,7 @@ class Payment extends My_Controller {
         
         // print_r($_POST); die();
         
-        mail('yousuf361@gmail.com', 'PayUMoney', json_encode($_POST));
+        mail('pro.mubashir@outlook.com', 'PayUMoney', json_encode($_POST));
         
         $invoice_id = $this->uri->segment(4);
         $invoice = $this->invoice->get_single_invoice($invoice_id);
@@ -532,7 +532,7 @@ class Payment extends My_Controller {
         $retHashSeq = $key."|".$txnid."|".$amount."|".$productinfo."|".$firstname."|".$email."|||||||||||".$salt;
 
         $hash = strtolower(hash("sha512", $retHashSeq));
-        mail('yousuf361@gmail.com', 'PayUMoney', $hash);
+        mail('pro.mubashir@outlook.com', 'PayUMoney', $hash);
          
         if ($hash != $posted_hash) {
             
@@ -749,7 +749,7 @@ class Payment extends My_Controller {
     * ********************************************************** */
     public function cc_avenue_success(){
         
-        mail('yousuf361@gmail.com', 'CC Avenue', json_encode($_POST));
+        mail('pro.mubashir@outlook.com', 'CC Avenue', json_encode($_POST));
         
         $invoice_id = $this->uri->segment(4);
         
@@ -764,7 +764,7 @@ class Payment extends My_Controller {
 	$decryptValues = explode('&', $rcvdString);        
 	$dataSize = sizeof($decryptValues);
         
-        mail('yousuf361@gmail.com', 'CCAVENUE Return', json_encode($rcvdString));
+        mail('pro.mubashir@outlook.com', 'CCAVENUE Return', json_encode($rcvdString));
         
 	for($i = 0; $i < $dataSize; $i++) 
 	{
@@ -921,7 +921,7 @@ class Payment extends My_Controller {
     * ********************************************************** */
     public function pay_tm_success(){
         
-       // mail('yousuf361@gmail.com', 'PAY TM Return', json_encode($_POST));
+       // mail('pro.mubashir@outlook.com', 'PAY TM Return', json_encode($_POST));
         
         $invoice_id = $this->uri->segment(4);
         $invoice = $this->invoice->get_single_invoice($invoice_id);
@@ -943,7 +943,7 @@ class Payment extends My_Controller {
         $paytmParams = $_POST;        
         $paytmChecksum = isset($_POST["CHECKSUMHASH"]) ? $_POST["CHECKSUMHASH"] : "";
 	
-        //Verify all parameters received from Paytm pg to your application. Like MID received from paytm pg is same as your application’s MID, TXN_AMOUNT and ORDER_ID are same as what was sent by you to Paytm PG for initiating transaction etc.
+        //Verify all parameters received from Paytm pg to your application. Like MID received from paytm pg is same as your applicationï¿½s MID, TXN_AMOUNT and ORDER_ID are same as what was sent by you to Paytm PG for initiating transaction etc.
          $isValidChecksum = verifychecksum_e($paytmParams, $merchantKey, $paytmChecksum);
         
         if($isValidChecksum == "TRUE") {
