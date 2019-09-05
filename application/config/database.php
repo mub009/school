@@ -99,8 +99,8 @@ $db['default'] = array(
 
 // Please enter your database connection here
 $db['default']['hostname'] = "localhost";
-$db['default']['username'] = "root";
-$db['default']['password'] = "mubashir";
-$db['default']['database'] = "school";
+$db['default']['username'] = "freelabn_school";
+$db['default']['password'] = "Om$g}}nf(*h=";
+$db['default']['database'] = "freelabn_school";
 
 
